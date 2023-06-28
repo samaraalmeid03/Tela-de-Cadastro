@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Tela de Cadastro</title>
+    <meta charset="UTF-8">
+    <meta name="authors" content="Samara Almeida">
+    <meta name="description" content="Tela de Cadastro">
+    <meta name="keywords" content="Cadastro, HTML, CSS">
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div class="grid">
+        <div class="image-form">
+            <img src="/Imagens/Analista financeira mulher.svg">
+        </div>
+        <div class="money-image">
+            <img src="/Imagens/Transmitir com dinheiro.svg">
+        </div>
+
+        <div class="form">
+            <div class="header-form">
+                <h1>Cadastre-se</h1>
+                <button><a href="#">Entrar</a></button>
+            </div>
+
+            <div class="form-content">
+                    <div class="inputs-form">
+                        <div class="input-box">
+                            <label id="label_firstname" for="firstname">Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite o seu primeiro nome" required>
+                        </div>
+                        <div class="input-box">
+                            <label id="label_lastname" for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite o seu sobrenome" required>
+                        </div>
+                        <div class="input-box">
+                            <label id="label_user" for="user">Usuário</label>
+                            <input id="user" type="text" name="user" placeholder="Crie um usuário" required>
+                        </div>
+                        <div class="input-box">
+                            <label id="label_password" for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Informe uma senha" required>
+                        </div>
+                        <div class="input-box">
+                            <label id="label_ConfirmPassword" for="ConfirmPassword">Confirme a senha</label>
+                            <input id="ConfirmPassword" type="password" name="ConfirmPassword" placeholder="Confirme a senha" required>
+                        </div>
+                    </div>
+                    <div class="register-button">
+                        <button onclick="cadastrar()"><a href="#">Cadastrar</a></button>
+                    </div>
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
